@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>JSP page</title>
+</head>
+<body>
+ 
+    <h1>Web Application (/EJB-ContainerManagedTransactions-Java_EE-no_timeout) is running</h1>
+    <h2>This random value must change with each refresh indicating that website is still alive: 78</h2>
+ 
+    <pre>
+Number in DB before any transaction 9410
+    beginTopLevelTransaction()
+        beginNestedTransaction()
+        Nested or parallel transaction can read value 9410
+        Nested or parallel transaction is trying to update value 9415
+        Nested or parallel transaction updates value 9415
+        Nested or parallel transaction is trying to read value
+        Nested or parallel transaction can read value 9415
+        commitNestedTransaction()
+    Top-level transaction is trying to read value
+    Top-level transaction can read value 9415
+    rollbackTopLevelTransaction()
+Number in DB after all transactions 9415
+--------------------
+Number in DB before any transaction 7790
+    beginTopLevelTransaction()
+    Top-level transaction just updated value 7791
+        beginNestedTransaction()
+        Nested or parallel transaction is trying to read value
+        Nested or parallel transaction can read value 7790
+        rollbackNestedTransaction()
+    Top-level transaction can read value 7791
+    commitTopLevelTransaction()
+Number in DB after all transactions 7791
+ 
+    </pre>
+ 
+</body>
+</html>

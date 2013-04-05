@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+    <annotationProcessing enabled="false" useClasspath="true" />
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FacetAutodetectingManager">
+    <autodetection-disabled>
+      <facet-type id="ejb">
+        <modules>
+          <module name="idea-module">
+            <files>
+              <file url="file://$PROJECT_DIR$/web/WEB-INF/ejb-jar.xml" />
+            </files>
+          </module>
+        </modules>
+      </facet-type>
+      <facet-type id="web">
+        <modules>
+          <module name="idea-module">
+            <files>
+              <file url="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
+            </files>
+          </module>
+        </modules>
+      </facet-type>
+    </autodetection-disabled>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profiles>
+      <profile version="1.0" is_locked="false">
+        <option name="myName" value="Project Default" />
+        <option name="myLocal" value="false" />
+        <inspection_tool class="AutoUnboxing" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="CheckDtdRefs" enabled="false" level="ERROR" enabled_by_default="false" />
+        <inspection_tool class="CheckEmptyScriptTag" enabled="false" level="WARNING" enabled_by_default="false" />
+        <inspection_tool class="CheckImageSize" enabled="false" level="WARNING" enabled_by_default="false" />
+        <inspection_tool class="CheckTagEmptyBody" enabled="false" level="WARNING" enabled_by_default="false" />
+        <inspection_tool class="CheckValidXmlInScriptTagBody" enabled="false" level="ERROR" enabled_by_default="false" />
+        <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="false" level="ERROR" enabled_by_default="false" />
+        <inspection_tool class="ConditionSignal" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="EmptyWebServiceClass" enabled="false" level="WARNING" enabled_by_default="false" />
+        <inspection_tool class="EqualsAndHashcode" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="EqualsCalledOnEnumConstant" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="HtmlExtraClosingTag" enabled="false" level="ERROR" enabled_by_default="false" />
+        <inspection_tool class="HtmlUnknownAttribute" enabled="false" level="WARNING" enabled_by_default="false">
+          <option name="myValues">
+            <value>
+              <list size="5">
+                <item index="0" class="java.lang.String" itemvalue="type" />
+                <item index="1" class="java.lang.String" itemvalue="wmode" />
+                <item index="2" class="java.lang.String" itemvalue="src" />
+                <item index="3" class="java.lang.String" itemvalue="width" />
+                <item index="4" class="java.lang.String" itemvalue="height" />
+              </list>
+            </value>
+          </option>
+          <option name="myCustomValuesEnabled" value="true" />
+        </inspection_tool>
+        <inspection_tool class="HtmlUnknownTag" enabled="false" level="WARNING" enabled_by_default="false">
+          <option name="myValues">
+            <value>
+              <list size="5">
+                <item index="0" class="java.lang.String" itemvalue="embed" />
+                <item index="1" class="java.lang.String" itemvalue="nobr" />
+                <item index="2" class="java.lang.String" itemvalue="noembed" />
+                <item index="3" class="java.lang.String" itemvalue="comment" />
+                <item index="4" class="java.lang.String" itemvalue="script" />
+              </list>
+            </value>
+          </option>
+          <option name="myCustomValuesEnabled" value="true" />
+        </inspection_tool>
+        <inspection_tool class="ImplicitNumericConversion" enabled="true" level="WARNING" enabled_by_default="true">
+          <option name="ignoreWideningConversions" value="false" />
+          <option name="ignoreCharConversions" value="false" />
+          <option name="ignoreConstantConversions" value="false" />
+        </inspection_tool>
+        <inspection_tool class="IntegerMultiplicationImplicitCastToLong" enabled="true" level="WARNING" enabled_by_default="true">
+          <option name="ignoreNonOverflowingCompileTimeConstants" value="true" />
+        </inspection_tool>
+        <inspection_tool class="LongLiteralsEndingWithLowercaseL" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="WARNING" enabled_by_default="true">
+          <option name="ignoreObjectMethods" value="true" />
+        </inspection_tool>
+        <inspection_tool class="MisspelledEquals" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ObjectEquality" enabled="true" level="WARNING" enabled_by_default="true">
+          <option name="m_ignoreEnums" value="true" />
+          <option name="m_ignoreClassObjects" value="false" />
+          <option name="m_ignorePrivateConstructors" value="false" />
+        </inspection_tool>
+        <inspection_tool class="ObjectNotify" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="RequiredAttributes" enabled="false" level="WARNING" enabled_by_default="false">
+          <option name="myAdditionalRequiredHtmlAttributes" value="" />
+        </inspection_tool>
+        <inspection_tool class="ReuseOfLocalVariable" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SimplifiableJUnitAssertion" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SleepWhileHoldingLock" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="StringEqualsEmptyString" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SubstringZero" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="SystemRunFinalizersOnExit" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ThreadRun" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ThreadStartInConstruction" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ThreadStopSuspendResume" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ThreadYield" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="ThrowableInstanceNeverThrown" enabled="false" level="WARNING" enabled_by_default="false" />
+        <inspection_tool class="UnnecessaryLocalVariable" enabled="false" level="WARNING" enabled_by_default="false">
+          <option name="m_ignoreImmediatelyReturnedVariables" value="false" />
+          <option name="m_ignoreAnnotatedVariables" value="false" />
+        </inspection_tool>
+        <inspection_tool class="UnnecessaryUnboxing" enabled="false" level="WARNING" enabled_by_default="false" />
+        <inspection_tool class="ValidExternallyBoundObject" enabled="true" level="WARNING" enabled_by_default="true" />
+        <inspection_tool class="XmlWrongRootElement" enabled="false" level="ERROR" enabled_by_default="false" />
+      </profile>
+    </profiles>
+    <option name="PROJECT_PROFILE" value="Project Default" />
+    <option name="USE_PROJECT_PROFILE" value="true" />
+    <version value="1.0" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/idea-module.iml" filepath="$PROJECT_DIR$/idea-module.iml" />
+    </modules>
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="Java SE" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
+  <component name="libraryTable">
+    <library name="Java EE 6 API">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/Java EE 6 API/javaee-api-6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/lib/Java EE 6 API/javaee-api-6.0-sources.zip!/" />
+      </SOURCES>
+    </library>
+    <library name="MySQL JDBC Driver">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/MySQL JDBC Driver/mysql-connector-java-5.1.17.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/lib/MySQL JDBC Driver/mysql-connector-java-5.1.17-sources.zip!/" />
+      </SOURCES>
+    </library>
+    <library name="Oracle JDBC Driver">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/Oracle JDBC Driver/ojdbc6_g.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Spring Framework 3.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-jdbc-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-orm-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-jms-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-oxm-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/commons.logging+slf4j-to-java.util.logging.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-webmvc-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-web-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-aspects-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-test-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-aop-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/org.aopalliance-1.0.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-instrument-tomcat-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-core-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-tx-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-expression-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-instrument-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-context-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-context-support-3.2.0.RELEASE.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-beans-3.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-test-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-aop-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/org.aopalliance-1.0.0-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-beans-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-jms-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-orm-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-instrument-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/commons.logging+slf4j-to-java.util.logging-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-instrument-tomcat-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-webmvc-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-web-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-tx-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-context-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-context-support-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-core-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-expression-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-jdbc-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-oxm-3.2.0.RELEASE-sources.zip!/" />
+        <root url="jar://$PROJECT_DIR$/lib/Spring Framework 3.2/spring-aspects-3.2.0.RELEASE-sources.zip!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>

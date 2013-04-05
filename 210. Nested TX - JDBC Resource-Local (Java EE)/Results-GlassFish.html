@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>JSP page</title>
+</head>
+<body>
+ 
+    <h1>Web Application (/JDBC-Java_EE) is running</h1>
+    <h2>This random value must change with each refresh indicating that website is still alive: 52</h2>
+ 
+    <pre>
+Number in DB before any transaction 8380
+    beginTopLevelTransaction()
+    Top-level transaction just updated value 8381
+        beginNestedTransaction()
+        Nested or parallel transaction can read value 8381
+        Nested or parallel transaction updates value 8385
+        Nested or parallel transaction can read value 8385
+        commitNestedTransaction()
+    Top-level transaction can read value 8385
+    rollbackTopLevelTransaction()
+Number in DB after all transactions 8380
+--------------------
+Number in DB before any transaction 8550
+    beginTopLevelTransaction()
+    Top-level transaction just updated value 8551
+        beginNestedTransaction()
+        Nested or parallel transaction can read value 8551
+        Nested or parallel transaction updates value 8555
+        Nested or parallel transaction can read value 8555
+        rollbackNestedTransaction()
+    Top-level transaction can read value 8551
+    commitTopLevelTransaction()
+Number in DB after all transactions 8551
+ 
+    </pre>
+ 
+</body>
+</html>
